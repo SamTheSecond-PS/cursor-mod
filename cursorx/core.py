@@ -369,3 +369,8 @@ class Cursor:
     @property
     def return_text(self):
         return self._text
+
+    @property
+    def __credits__(self):
+        text = '''Credits to Sarvesh E R for this module.'''
+        return text
